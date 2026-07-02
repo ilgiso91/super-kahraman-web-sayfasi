@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 900" role="img" aria-labelledby="title desc">
+  <title id="title">Gölge Kalkan kahraman görseli</title>
+  <desc id="desc">Kırmızı pelerinli, lacivert kostümlü ve kalkan sembollü özgün bir süper kahraman.</desc>
+  <rect width="700" height="900" fill="#dcecf8"/>
+  <circle cx="145" cy="115" r="58" fill="#ffffff" opacity="0.9"/>
+  <circle cx="196" cy="116" r="48" fill="#ffffff" opacity="0.9"/>
+  <circle cx="520" cy="150" r="62" fill="#ffffff" opacity="0.85"/>
+  <circle cx="575" cy="148" r="46" fill="#ffffff" opacity="0.85"/>
+  <rect x="0" y="610" width="700" height="290" fill="#b9c8d6"/>
+  <rect x="55" y="520" width="88" height="380" fill="#8799aa"/>
+  <rect x="185" y="475" width="105" height="425" fill="#6f8192"/>
+  <rect x="440" y="500" width="95" height="400" fill="#7b8fa2"/>
+  <rect x="570" y="440" width="82" height="460" fill="#6c7f92"/>
+  <polygon points="165,280 275,210 330,810 80,810" fill="#b42318"/>
+  <polygon points="535,280 425,210 370,810 620,810" fill="#8f1d15"/>
+  <ellipse cx="350" cy="180" rx="90" ry="105" fill="#f0b68f"/>
+  <path d="M260 160c18-78 75-115 148-96 43 12 77 46 83 96-28-24-61-34-99-31-38 3-83 12-132 31z" fill="#1f2933"/>
+  <path d="M270 148c25-75 86-106 150-78 36 16 60 47 65 86-52-34-113-36-215-8z" fill="#111827" opacity="0.75"/>
+  <circle cx="318" cy="183" r="9" fill="#1f2933"/>
+  <circle cx="382" cy="183" r="9" fill="#1f2933"/>
+  <path d="M315 238c24 20 53 20 76 0" fill="none" stroke="#8f4b36" stroke-width="8" stroke-linecap="round"/>
+  <path d="M225 360c12-88 62-140 125-140s113 52 125 140l32 265c10 80-52 150-132 150h-50c-80 0-142-70-132-150l32-265z" fill="#12233f"/>
+  <path d="M245 370c44 20 87 30 105 30s61-10 105-30l22 170c-42 30-85 45-127 45s-85-15-127-45l22-170z" fill="#1f365f"/>
+  <path d="M350 395l112 42c-8 95-45 152-112 190-67-38-104-95-112-190l112-42z" fill="#eef2f7"/>
+  <path d="M350 425l78 30c-10 62-36 102-78 130-42-28-68-68-78-130l78-30z" fill="#b42318"/>
+  <path d="M350 425l78 30c-10 62-36 102-78 130V425z" fill="#12233f"/>
+  <path d="M225 380c-52 34-80 80-90 139l-20 121c-8 46 26 88 73 88h55l20-106-38-242z" fill="#b42318"/>
+  <path d="M475 380c52 34 80 80 90 139l20 121c8 46-26 88-73 88h-55l-20-106 38-242z" fill="#8f1d15"/>
+  <path d="M240 695h220l-20 120H260l-20-120z" fill="#12233f"/>
+  <rect x="250" y="660" width="200" height="42" rx="10" fill="#b42318"/>
+  <path d="M350 650l45 20-10 70h-70l-10-70 45-20z" fill="#eef2f7"/>
+  <path d="M350 667l27 13-6 43h-42l-6-43 27-13z" fill="#b42318"/>
+</svg>
