@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f2933;
+  background: #f4f7fb;
+  line-height: 1.6;
+}
+
+.site-header {
+  background: #12233f;
+  padding: 16px 24px;
+}
+
+nav {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 28px;
+  align-items: center;
+  padding: 28px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #d9e2ec;
+}
+
+.hero h1 {
+  margin: 0 0 8px;
+  font-size: 44px;
+  color: #12233f;
+}
+
+.hero h2 {
+  margin: 0 0 16px;
+  color: #b42318;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+.hero-image img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #d9e2ec;
+}
+
+.button-link,
+button {
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  background: #b42318;
+  color: #ffffff;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-link:hover,
+button:hover {
+  background: #8f1d15;
+}
+
+.content-section,
+.form-section {
+  margin-top: 24px;
+  padding: 28px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #d9e2ec;
+}
+
+h2 {
+  margin-top: 0;
+  color: #12233f;
+}
+
+h3 {
+  margin-top: 24px;
+  color: #334e68;
+}
+
+ul,
+ol {
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  max-width: 560px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #bcccdc;
+  border-radius: 6px;
+  font: inherit;
+}
+
+input:focus,
+textarea:focus {
+  outline: 3px solid #f7c7c2;
+  border-color: #b42318;
+}
+
+footer {
+  margin-top: 24px;
+  padding: 18px;
+  text-align: center;
+  background: #12233f;
+  color: #ffffff;
+}
+
+@media (max-width: 760px) {
+  main {
+    padding: 16px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+}
