@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gölge Kalkan Tanıtım Sayfası</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav>
+      <a href="#hakkinda">Hakkında</a>
+      <a href="#gucler">Süper Güçler</a>
+      <a href="#form">Ekibe Katıl</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hakkinda">
+      <div class="hero-text">
+        <h1>Gölge Kalkan</h1>
+        <h2>Şehrin Sessiz Koruyucusu</h2>
+        <p>
+          Gölge Kalkan, geceleri insanlara yardım eden ve tehlikeli durumlarda
+          sakin kalmayı başarabilen genç bir süper kahramandır.
+        </p>
+        <a class="button-link" href="https://tr.wikipedia.org/wiki/S%C3%BCper_kahraman" target="_blank" rel="noopener noreferrer">
+          Süper kahramanlar hakkında bilgi
+        </a>
+      </div>
+
+      <div class="hero-image">
+        <img src="assets/golge-kalkan.svg" alt="Gölge Kalkan adlı süper kahramanın resmi">
+      </div>
+    </section>
+
+    <section class="content-section" id="gucler">
+      <h2>Kahraman Hakkında</h2>
+      <p>
+        Gölge Kalkan'ın amacı güçlü görünmekten çok, ihtiyacı olan insanlara
+        zamanında yardım etmektir. Takım çalışmasına önem verir ve acele karar
+        vermemeye çalışır.
+      </p>
+
+      <h3>Süper Güçleri</h3>
+      <ul>
+        <li>Gölge içinde hızlı hareket edebilme</li>
+        <li>Enerji kalkanı oluşturma</li>
+        <li>Keskin duyma yeteneği</li>
+        <li>Zor durumlarda sakin kalma</li>
+      </ul>
+    </section>
+
+    <section class="content-section">
+      <h2>Düşmanları ve Maceraları</h2>
+      <p>
+        En büyük düşmanı Kara Pusula'dır. Kara Pusula, şehirdeki güvenlik
+        sistemlerini bozarak karışıklık çıkarmaya çalışır.
+      </p>
+
+      <h3>Önemli Maceraları</h3>
+      <ol>
+        <li>Eski köprüde mahsur kalan insanları kurtardı.</li>
+        <li>Kayıp okul servisini güvenli bir yere yönlendirdi.</li>
+        <li>Kara Pusula'nın planını ekip arkadaşlarıyla birlikte durdurdu.</li>
+      </ol>
+    </section>
+
+    <section class="form-section" id="form">
+      <h2>Kahraman Ekibine Katıl!</h2>
+      <p>
+        Sen de kahraman ekibine katılmak istersen aşağıdaki formu doldurabilirsin.
+      </p>
+
+      <form>
+        <label for="adsoyad">İsim ve soyisim</label>
+        <input type="text" id="adsoyad" name="adsoyad" placeholder="Adınızı ve soyadınızı yazın" required>
+
+        <label for="kahramanadi">Süper kahraman adı</label>
+        <input type="text" id="kahramanadi" name="kahramanadi" placeholder="Kahraman adınızı yazın" required>
+
+        <label for="guc">En sevdiğiniz süper güç</label>
+        <input type="text" id="guc" name="guc" placeholder="Örneğin: uçmak" required>
+
+        <label for="mesaj">Başvuru mesajı</label>
+        <textarea id="mesaj" name="mesaj" rows="5" placeholder="Ekibe neden katılmak istediğinizi yazın" required></textarea>
+
+        <button type="submit">Gönder</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hafta 1 HTML Ödevi</p>
+  </footer>
+</body>
+</html>
